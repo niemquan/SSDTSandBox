@@ -2,16 +2,20 @@
 
 using namespace std;
 
-class person{
-	
-	private string name;
-	public string GetName(){
+class person
+{
+public:
+	string GetName(){
 		return name;
 	}
 	
-	public void SetName(string inputName){
+	void SetName(string inputName){
 		name = inputName;
 	}
+	
+private: 
+	string name;
+	
 }
 
 
