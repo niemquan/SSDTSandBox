@@ -9,19 +9,11 @@ private:
 	int age;
 
 public:
-	void SetName(string inputName){
-		name = inputName;
-	}
+	void SetName(string inputName);
 
-	string GetName(){
-		return name;
-	}
+	string GetName();
 
-	void SetAge(string inputAge){
-		age = inputAge;
-	}
+	void SetAge(string inputAge);
 
-	void GetAge(){
-		return age;
-	}
+	void GetAge();
 };
